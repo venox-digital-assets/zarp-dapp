@@ -5,14 +5,7 @@ module.exports = {
     mocha: true,
     node: true,
   },
-  extends: [
-    "next",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:import/typescript",
-    "prettier",
-  ],
+  extends: ["next", "prettier"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
